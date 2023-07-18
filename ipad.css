@@ -1,0 +1,48 @@
+ul .item{
+    font-size: 1rem;
+}
+#home::before{
+    height: 687px;
+}
+#home{
+    height: 600px;
+    padding: 3px 60px;
+}
+
+#services-container{
+    height: 1150px;
+}
+
+#services{
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+#services .box img{
+    height: 75px;
+}
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 150px;
+    height: 110px;
+}
+.client-item{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#contact-box form{
+    width: 50%;
+}
+.h-primary{
+    font-size: 35px;
+
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    
+}

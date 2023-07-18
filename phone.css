@@ -1,0 +1,76 @@
+#navbar{
+    flex-direction: column;
+}
+ul .item{
+    font-size: 1rem;
+    padding-bottom: 8px;
+}
+.item a{
+    padding: 0 10px;
+}
+
+#home{
+    height: 400px;
+    padding: 3px 50px;
+}
+#home::before{
+    height: 518px;
+}
+#home p{
+    font-size: 13px;
+    margin: 10px;
+}
+
+#services-container{
+    height: 1100px;
+}
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services .box{
+    height: 280px;
+    width: 280px;
+    padding: 15px;
+    margin: 5px 2px;
+}
+#services .box img{
+    height: 55px;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 13px;
+
+}
+
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 90px;
+    height: 80px;
+}
+.client-item{
+    margin-top: 40px;
+    padding: 15px;
+}
+#contact-box form{
+    width: 70%;
+}
+
+
+.h-primary{
+    font-size: 30px;
+
+}
+.h-secondary{
+    font-size: 1.3rem;
+    padding: 8px;
+    font-family: 'Bree Serif', serif;
+    
+}
+.btn{
+    margin: 10px;
+    font-size: 10px;
+}
